@@ -1,144 +1,227 @@
-/* ========== GLOBAL STYLES ========== */
+/* ================= ROOT VARIABLES ================= */
+:root {
+    --primary: #1e90ff;
+    --secondary: #ff5722;
+    --dark: #222;
+    --light: #f4f6f8;
+    --radius: 10px;
+}
+
+/* ================= GLOBAL ================= */
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f8;
     margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--light);
     padding: 20px;
 }
 
 h1 {
     text-align: center;
-    color: #2c3e50;
-}
-
-h2 {
-    color: #1e90ff;
-    margin-top: 40px;
+    color: var(--dark);
 }
 
 section {
-    background: #ffffff;
+    background: white;
     padding: 20px;
-    margin-bottom: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 25px 0;
+    border-radius: var(--radius);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-p {
-    color: #333;
-    line-height: 1.6;
+h2 {
+    color: var(--primary);
 }
 
-/* ========== TYPOGRAPHY ========== */
-.font-demo {
-    font-family: cursive;
+/* ================= TYPOGRAPHY ================= */
+.typography {
+    font-family: Georgia, serif;
     font-size: 22px;
     font-weight: bold;
-    color: #6a1b9a;
+    color: purple;
 }
 
-/* ========== COLORS ========== */
+/* ================= COLORS ================= */
 .color-box {
     width: 150px;
     height: 100px;
     background: linear-gradient(45deg, red, yellow);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-/* ========== BOX MODEL ========== */
+/* ================= BOX MODEL ================= */
 .box-model {
     width: 200px;
     padding: 20px;
     margin: 20px;
-    border: 5px solid #ff5722;
+    border: 5px solid var(--secondary);
     background: #ffe0b2;
 }
 
-/* ========== DISPLAY PROPERTY ========== */
+/* ================= DISPLAY ================= */
 .inline {
     display: inline;
     background: lightblue;
-    padding: 10px;
+    padding: 5px;
 }
 
 .block {
     display: block;
     background: lightgreen;
-    padding: 10px;
-    margin-top: 10px;
+    margin: 5px 0;
 }
 
 .inline-block {
     display: inline-block;
     width: 120px;
-    height: 50px;
+    height: 40px;
     background: lightcoral;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
 }
 
-/* ========== POSITION PROPERTY ========== */
-.relative-box {
+/* ================= POSITION ================= */
+.relative {
     position: relative;
-    background: #d1c4e9;
     height: 120px;
+    background: #d1c4e9;
 }
 
-.absolute-box {
+.absolute {
     position: absolute;
-    right: 10px;
     bottom: 10px;
+    right: 10px;
     background: #673ab7;
     color: white;
-    padding: 8px;
+    padding: 6px;
 }
 
-.fixed-box {
+.fixed {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 15px;
+    right: 15px;
     background: black;
     color: white;
     padding: 10px;
 }
 
-/* ========== CSS UNITS ========== */
-.unit-px {
+/* ================= UNITS ================= */
+.px {
     font-size: 16px;
 }
 
-.unit-em {
+.em {
     font-size: 1.5em;
 }
 
-.unit-rem {
+.rem {
     font-size: 2rem;
 }
 
-.unit-vw {
-    font-size: 5vw;
+.vw {
+    font-size: 4vw;
 }
 
-/* ========== FLOAT, CLEAR, OVERFLOW ========== */
+/* ================= FLOAT ================= */
 .float-box {
+    float: left;
     width: 100px;
     height: 100px;
     background: #4caf50;
-    float: left;
     margin-right: 10px;
 }
 
-.clear-box {
+.clear {
     clear: both;
 }
 
-.overflow-box {
+/* ================= OVERFLOW ================= */
+.overflow {
     width: 200px;
-    height: 80px;
-    border: 2px solid #000;
+    height: 70px;
+    border: 2px solid black;
     overflow: auto;
-    padding: 5px;
+}
+
+/* ================= FLEXBOX ================= */
+.flex-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item {
+    background: var(--primary);
+    color: white;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+/* ================= SHADOW ================= */
+.shadow-box {
+    width: 200px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.shadow-text {
+    text-shadow: 2px 2px 5px red;
+}
+
+/* ================= TRANSITION ================= */
+.transition-box {
+    width: 150px;
+    height: 50px;
+    background: var(--secondary);
+    transition: all 0.4s ease;
+}
+
+.transition-box:hover {
+    width: 200px;
+    background: green;
+}
+
+/* ================= TRANSFORM ================= */
+.transform-box {
+    width: 100px;
+    height: 100px;
+    background: teal;
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* ================= ANIMATION ================= */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.animation-box {
+    width: 80px;
+    height: 80px;
+    background: red;
+    animation: bounce 1s infinite;
+}
+
+/* ================= MEDIA QUERY ================= */
+@media (max-width: 600px) {
+    body {
+        background: #e3f2fd;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
 }
