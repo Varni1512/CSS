@@ -10,7 +10,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🔰 1. CSS Basics
+##  1. CSS Basics
 - What is CSS
 - CSS Syntax
 - CSS Comments
@@ -19,7 +19,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🎯 2. Types of CSS
+##  2. Types of CSS
 - Inline CSS
 - Internal CSS
 - External CSS
@@ -27,7 +27,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🎨 3. CSS Selectors
+##  3. CSS Selectors
 - Universal selector
 - Element selector
 - Class selector
@@ -41,7 +41,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## ✍️ 4. CSS Typography
+##  4. CSS Typography
 - font-family
 - font-size
 - font-weight
@@ -56,7 +56,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🌈 5. CSS Colors & Backgrounds
+##  5. CSS Colors & Backgrounds
 - Color formats (name, hex, rgb, rgba, hsl)
 - background-color
 - background-image
@@ -67,7 +67,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 📦 6. CSS Box Model
+##  6. CSS Box Model
 - Content
 - Padding
 - Border
@@ -77,14 +77,14 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 📐 7. CSS Units
+##  7. CSS Units
 - Absolute units (px)
 - Relative units (%, em, rem)
 - Viewport units (vw, vh)
 
 ---
 
-## 🧱 8. CSS Display & Visibility
+##  8. CSS Display & Visibility
 - display: block
 - display: inline
 - display: inline-block
@@ -94,7 +94,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 📍 9. CSS Positioning
+##  9. CSS Positioning
 - static
 - relative
 - absolute
@@ -104,7 +104,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🧭 10. CSS Float & Clear
+##  10. CSS Float & Clear
 - float
 - clear
 - layout behavior
@@ -112,7 +112,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 📜 11. CSS Overflow
+##  11. CSS Overflow
 - overflow
 - overflow-x
 - overflow-y
@@ -122,14 +122,14 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 📏 12. Width & Height
+##  12. Width & Height
 - width / height
 - min-width / max-width
 - min-height / max-height
 
 ---
 
-## 🧩 13. CSS Flexbox (Fully Covered)
+##  13. CSS Flexbox
 - display: flex
 - flex-direction
 - flex-wrap
@@ -143,11 +143,9 @@ The goal of this project is to **understand where and why each CSS property is u
 - flex-basis
 - align-self
 
-👉 Used for: navbar, cards, layouts, centering elements
-
 ---
 
-## 🟦 14. CSS Grid
+##  14. CSS Grid
 - display: grid
 - grid-template-columns
 - grid-template-rows
@@ -156,11 +154,9 @@ The goal of this project is to **understand where and why each CSS property is u
 - grid-column & grid-row
 - place-items
 
-👉 Used for: complex layouts
-
 ---
 
-## 📱 15. CSS Media Queries
+##  15. CSS Media Queries
 - Responsive design
 - Mobile-first approach
 - min-width / max-width
@@ -169,7 +165,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🎭 16. CSS Variables (Custom Properties)
+##  16. CSS Variables (Custom Properties)
 - :root
 - var()
 - Theme management
@@ -177,14 +173,14 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🌑 17. CSS Shadows
+##  17. CSS Shadows
 - box-shadow
 - text-shadow
 - UI depth & emphasis
 
 ---
 
-## 🔁 18. CSS Transitions
+##  18. CSS Transitions
 - transition-property
 - transition-duration
 - timing-functions
@@ -192,7 +188,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🎬 19. CSS Transforms
+##  19. CSS Transforms
 - translate()
 - scale()
 - rotate()
@@ -202,7 +198,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🎞️ 20. CSS Animations
+##  20. CSS Animations
 - @keyframes
 - animation-name
 - animation-duration
@@ -213,35 +209,7 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## 🧠 21. Advanced CSS Concepts
-- Specificity
-- Inheritance
-- !important
-- Reflow & repaint
-- CSS architecture basics
-
----
-
-## ⚙️ 22. Modern CSS Features
-- calc()
-- clamp()
-- aspect-ratio
-- object-fit
-- scroll-behavior
-
----
-
-## 🚀 23. Real-World Usage
-- Centering elements
-- Navbar layouts
-- Cards & components
-- Responsive UI
-- Hover & animation effects
-- Modern UI design patterns
-
----
-
-## 🎯 Purpose of This Repository
+##  Purpose of This Repository
 - Learn CSS **conceptually**
 - Understand **where each property is used**
 - Prepare for **interviews**
@@ -250,19 +218,11 @@ The goal of this project is to **understand where and why each CSS property is u
 
 ---
 
-## ✅ Who Should Use This?
+##  Who Should Use This?
 - Beginners learning CSS
 - Students preparing for placements
 - Frontend developers
 - Anyone revising CSS quickly
-
----
-
-## 📌 Next Enhancements (Optional)
-- Mini CSS projects
-- Interview Q&A
-- CSS cheat sheet
-- Advanced animations & layouts
 
 ---
 
